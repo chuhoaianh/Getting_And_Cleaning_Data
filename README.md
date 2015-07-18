@@ -19,8 +19,18 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 
 ## How the script works
-1. Download and unzip the data set "UCI HAR Dataset"
-2. Copy the script to the same location with the data set folder "UCI HAR Dataset"
-3. Set working folder to the location of the script and the folder
-3. Run the script
-4. The out put from the script will be text file "MergedClean_Average_dataset.txt", which is a clean data set with average of variable for each activity and each subject. The dimension of the data set is 180x68, which contains average data (mean and standard deviation) of each activity (6 activities per subject) from 30 subjects.
+1. Download and unzip the data set "UCI HAR Dataset" to a folder, for example "C:/test/"
+2. Copy the script to the same location with the data set folder "UCI HAR Dataset", for example "C:/test/". Now the "test"" folder will have
+    - C:/test/UCI HAR Dataset/
+    - C:/test/run_analysis.r
+3. Using R console, set working folder to the location of the script and the folder, i.e. 
+```r{}
+setwd("C://test//")
+```
+
+4. Run the script
+```r{}
+source("run_analysis.R")
+```
+
+5. The out put from the script will be text file "MergedClean_Average_dataset.txt", which is a clean data set with average of variable for each activity and each subject. The dimension of the data set is 180x68, which contains average data (mean and standard deviation) of each activity (6 activities per subject) from 30 subjects.
