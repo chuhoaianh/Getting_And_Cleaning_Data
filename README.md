@@ -1,5 +1,5 @@
 # Getting And Cleaning Data
-This is repo for project in "Getting and cleaning data" course. This repo contains run_analysis.R script, READM.md, and CodeBook.md (describe the variables of the data set created by the "run_analysis.r" script)
+This is a repo for project in "Getting and cleaning data" course. This repo contains run_analysis.R script, READM.md, and CodeBook.md (describe the variables of the data set created by the "run_analysis.r" script)
 
 ## Project details
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
