@@ -62,7 +62,7 @@ The attached "run_analysis.R" will perform the following:
     - fbodybodygyrojerkmag-std  
   
 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. Then save this second tidy data set to "MergedClean_Average_dataset.txt"
-- tidy_data2: is a 180 x 68 data frame which includes average of each variable for each activity at each subject. 
-    - 180 rows: each subject performed 6 activites as shown above, there are 30 subjects, therefore 180 rows (30 x 6). 
-    - 68 columns: 66 columns of average data, together with subject ID and activities columns, there are total of 68 columns. 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. Then save this second tidy data set to "MergedClean_Average_dataset.txt" 
+    - tidy_data2: is a 180 x 68 data frame which includes average of each variable for each activity at each subject. 
+        - 180 rows: each subject performed 6 activites as shown above, there are 30 subjects, therefore 180 rows (30 x 6). 
+        - 68 columns: 66 columns of average data, together with subject ID and activities columns, there are total of 68 columns. 
