@@ -1,5 +1,5 @@
 # Getting And Cleaning Data
-This is repo for project in "Getting and cleaning data" course. This repo contains run_analysis.R script which will create a tidy data set from a given data set.
+This is repo for project in "Getting and cleaning data" course. This repo contains run_analysis.R script, READM.md, and CodeBook.md (describe the variables of the data set created by the "run_analysis.r" script)
 
 ## Project details
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
@@ -18,7 +18,10 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.  
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 
-## How the script works
+## How the script works:
+The script reads the data from provided link (in project details), does all getting and cleaning processes (folling the project details steps), and generates a required tidy data set, as well as the .txt version of that tidy data set
+
+## Running the script
 1. Download and unzip the data set "UCI HAR Dataset" to a folder, for example "C:/test/"
 2. Copy the script to the same location with the data set folder "UCI HAR Dataset", for example "C:/test/". Now the "test"" folder will have
     - C:/test/UCI HAR Dataset/
