@@ -21,7 +21,8 @@ The attached "run_analysis.R" will perform the following:
         - SITTING  
         - STANDING  
         - LAYING  
-4. Labels the data set with descriptive variable names: all values and column names are lower case, "_" and "()" are removed. For example: "WALKING_UPSTAIRS" -> "walking upstairs", "tBodyAcc-mean()-X" -> "tBodyAcc-mean-x". After clean up all the data set, they are all merged together to provide one tidy data set, which is 10299 x 68 data frame with subject ID, activity labels, all mean and standard deviation tested data.   
+4. Labels the data set with descriptive variable names: all values and column names are lower case, "_" and "()" are removed. For example: "WALKING_UPSTAIRS" -> "walking upstairs", "tBodyAcc-mean()-X" -> "tBodyAcc-mean-x". After clean up all the data set, they are all merged together to provide one tidy data set, which is 10299 x 68 data frame with subject ID, activity labels, all mean and standard deviation tested data.  
+*Please note that, the lable of x, y, z will be combined into one xyz in this code book (not letting the codebook too long), for example: tbodyacc-mean-x, tbodyacc-mean-y, tbodyacc-mean-z -> tbodyacc-mean-xyz. In the data set they will still be seperated*
 
     - subject
     - activities
@@ -59,9 +60,8 @@ The attached "run_analysis.R" will perform the following:
     - fbodybodygyromag-std
     - fbodybodygyrojerkmag-mean
     - fbodybodygyrojerkmag-std  
-    
-*Please note that, the lable of x, y, z will be combined into one xyz in this code book (not letting the codebook too long), for example: tbodyacc-mean-x, tbodyacc-mean-y, tbodyacc-mean-z -> tbodyacc-mean-xyz. In the data set they will still be seperated*
-    
+  
+
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. Then save this second tidy data set to "MergedClean_Average_dataset.txt"
 - tidy_data2: is a 180 x 68 data frame which includes average of each variable for each activity at each subject. 
     - 180 rows: each subject performed 6 activites as shown above, there are 30 subjects, therefore 180 rows (30 x 6). 
