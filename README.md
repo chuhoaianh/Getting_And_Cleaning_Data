@@ -24,11 +24,11 @@ You should create one R script called run_analysis.R that does the following.
     - C:/test/UCI HAR Dataset/
     - C:/test/run_analysis.r
 3. Using R console, set working folder to the location of the script and the folder, i.e.
-    ```r{}
-    setwd("C://test//")
-    ```
+  ```r{}
+  setwd("C://test//")
+  ```
 4. Run the script
-    ```r{}
-    source("run_analysis.R")
-    ```
+  ```r{}
+  source("run_analysis.R")
+  ```
 5. The out put from the script will be text file "MergedClean_Average_dataset.txt", which is a clean data set with average of variable for each activity and each subject. The dimension of the data set is 180x68, which contains average data (mean and standard deviation) of each activity (6 activities per subject) from 30 subjects.
