@@ -23,11 +23,13 @@ You should create one R script called run_analysis.R that does the following.
 2. Copy the script to the same location with the data set folder "UCI HAR Dataset", for example "C:/test/". Now the "test"" folder will have
     - C:/test/UCI HAR Dataset/
     - C:/test/run_analysis.r
-3. Using R console, set working folder to the location of the script and the folder, i.e.
+3. Using R console, set working folder to the location of the script and the folder, i.e.  
+  
   ```r{}
   setwd("C://test//")
   ```
-4. Run the script
+4. Run the script  
+  
   ```r{}
   source("run_analysis.R")
   ```
